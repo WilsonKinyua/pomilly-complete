@@ -105,39 +105,39 @@
                                     <li><a href="#">COMPANY</a>
                                         <ul class="submenu">
                                             <li><a href="{{ route("aboutus.index") }}">About Us</a></li>
-                                            <li><a href="missionandvision.html">Mission & Vision</a></li>
-                                            <li><a href="corevalues.html">Core Values</a></li>
-                                            <li><a href="motto.html">Motto</a></li>
-                                            <li><a href="ourhistory.html">Our History</a></li>
-                                            <li><a href="whatisfoodrecycling.html">What is food Recycling</a></li>
-                                            <li><a href="whatwedo.html">What We do</a></li>
-                                            <li><a href="depositfood.html">Deposit Food</a></li>
-                                            <li><a href="volunteer.html">Volunteer</a></li>
-                                            <li><a href="donate.html">Donate</a></li>
-                                            <li><a href="whatsnew.html">What's New</a></li>
+                                            <li><a href="{{ route('missionandvision.index') }}">Mission & Vision</a></li>
+                                            <li><a href="{{ route('corevalues.index') }}">Core Values</a></li>
+                                            <li><a href="{{ route('motto.index') }}">Motto</a></li>
+                                            <li><a href="{{ route('ourhistory.index') }}">Our History</a></li>
+                                            <li><a href="{{ route('whatisfoodrecycling.index') }}">What is food Recycling</a></li>
+                                            <li><a href="{{ route('whatwedo.index') }}">What We do</a></li>
+                                            <li><a href="{{route('depositfood.index')}}">Deposit Food</a></li>
+                                            <li><a href="{{route('volunteer.index')}}">Volunteer</a></li>
+                                            <li><a href="{{route('donate.index')}}">Donate</a></li>
+                                            <li><a href="{{route('whatsnew.index')}}">What's New</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="team.html">TEAM</a></li>
+                                    <li><a href="{{route('team.index')}}">TEAM</a></li>
 
-                                    <li><a href="ourgoals.html">OUR GOALS</a></li>
+                                    <li><a href="{{route('ourgoals.index')}}">OUR GOALS</a></li>
 
                                     <li><a href="#">SERVICES</a>
                                         <ul class="submenu">
-                                            <li><a href="sustainableagriculturalconsultancy.html">SUSTAINABLE
+                                            <li><a href="{{ route('sustainableagricultural.index') }}">SUSTAINABLE
                                                     AGRICULTURAL CONSULTANCY</a></li>
-                                            <li><a href="foodwasterecyclingindustry.html">FOOD WASTE RECYCLING
+                                            <li><a href="{{ route('foodwasterecyclingindustry.index') }}">FOOD WASTE RECYCLING
                                                     INDUSTRY</a></li>
-                                            <li><a href="foodbankingfoodsecurity.html">FOOD BANKING & FOOD SECURITY
+                                            <li><a href="{{ route('foodbankingfoodsecurity.index') }}">FOOD BANKING & FOOD SECURITY
                                                     CONSULTANCY</a></li>
-                                            <li><a href="eosphconsultancy.html">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
+                                            <li><a href="{{ route('eosphconsultancy.index') }}">ENVIRONMENTAL, OCCUPATIONAL SAFETY &
                                                     PUBLIC HEALTH CONSULTANCY</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">BLOG</a></li>
+                                    <li><a href="{{route('blog.index')}}">BLOG</a></li>
 
-                                    <li><a href="contactus.html">CONTACT US</a></li>
+                                    <li><a href="{{route('contactus.index')}}">CONTACT US</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -177,10 +177,10 @@
                             <div class="footer-tittle">
                                 <h4>Company</h4>
                                 <ul>
-                                    <li><a href="aboutus.html" style="color:white">About Us</a></li>
-                                    <li><a href="missionandvision.html" style="color:white">Mission & Vision</a>
+                                    <li><a href="{{route('aboutus.index')}}" style="color:white">About Us</a></li>
+                                    <li><a href="{{route('missionandvision.index')}}" style="color:white">Mission & Vision</a>
                                     </li>
-                                    <li><a href="corevalues.html" style="color:white">Core Values</a></li>
+                                    <li><a href="{{route('corevalues.index')}}" style="color:white">Core Values</a></li>
 
                                 </ul>
                             </div>
@@ -191,13 +191,13 @@
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="sustainableagriculturalconsultancy.html"
+                                    <li><a href="{{ route('sustainableagricultural.index') }}"
                                            style="color:white">SUSTAINABLE AGRICULTURAL CONSULTANCY</a></li>
-                                    <li><a href="foodwasterecyclingindustry.html" style="color:white">FOOD WASTE
+                                    <li><a href="{{ route('foodwasterecyclingindustry.index') }}" style="color:white">FOOD WASTE
                                             RECYCLING INDUSTRY</a></li>
-                                    <li><a href="foodbankingfoodsecurity.html" style="color:white">FOOD BANKING &
+                                    <li><a href="{{ route('foodbankingfoodsecurity.index') }}" style="color:white">FOOD BANKING &
                                             FOOD SECURITY CONSULTANCY</a></li>
-                                    <li><a href="eosphconsultancy.html" style="color:white">ENVIRONMENTAL,
+                                    <li><a href="{{ route('eosphconsultancy.index') }}" style="color:white">ENVIRONMENTAL,
                                             OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY</a></li>
                                 </ul>
                             </div>
@@ -208,9 +208,9 @@
                             <div class="footer-tittle">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="contactus.html" style="color:white">Contact Us</a></li>
-                                    <li><a href="team.html" style="color:white">Our Team</a></li>
-                                    <li><a href="ourgoals.html" style="color:white">Our Goals</a></li>
+                                    <li><a href="{{route('contactus.index')}}" style="color:white">Contact Us</a></li>
+                                    <li><a href="{{route('team.index')}}" style="color:white">Our Team</a></li>
+                                    <li><a href="{{route('ourgoals.index')}}" style="color:white">Our Goals</a></li>
 
                                 </ul>
                             </div>
