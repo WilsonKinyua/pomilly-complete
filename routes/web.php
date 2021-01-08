@@ -17,8 +17,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Company pages
-Route::resource('/company/about','AboutUsController');
+// ---------------------- Company pages --------------------------------------------------------
+Route::resource('/company/aboutus','AboutUsController');
+Route::resource('/company/missionandvision',"MissionVisionController");
+Route::resource('/company/corevalues',"CoreValuesController");
+Route::resource('/company/motto',"MottoController");
+Route::resource('/company/ourhistory',"OurHistoryController");
+Route::resource('/company/whatisfoodrecycling',"WhatIsFoodRecyclingController");
+Route::resource('/company/whatwedo',"WhatWeDoController");
+Route::resource('/company/depositfood',"DepositFoodController");
+Route::resource('/company/volunteer',"VolunteerController");
+Route::resource('/company/donate',"DonateController");
+Route::resource('/company/whatsnew',"WhatsNewController");
 
+// ---------------------- end of Company pages--------------------------------------------------------
 
+Route::resource('/team',"TeamController");
+Route::resource('/ourgoals',"OurGoalsController");
+
+Route::resource('/services/sustainableagriculturalconsultancy',"SustainableAgriculturalConsultancyController");
+
+Route::resource("contactus","ContactUsController");
 
