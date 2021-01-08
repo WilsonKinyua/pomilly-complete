@@ -35,7 +35,11 @@ Route::resource('/company/whatsnew',"WhatsNewController");
 Route::resource('/team',"TeamController");
 Route::resource('/ourgoals',"OurGoalsController");
 
-Route::resource('/services/sustainableagriculturalconsultancy',"SustainableAgriculturalConsultancyController");
+Route::resource('/services/sustainableagricultural',"SustainableAgriculturalConsultancyController");
+Route::resource('/services/foodwasterecyclingindustry',"FoodWasteRecyclingIndustryController");
+Route::resource('/services/foodbankingfoodsecurity',"FoodBankingFoodSecurityController");
+Route::resource('/services/eosphconsultancy',"EosphconsultancyController");
 
+Route::resource("blog","BlogController");
 Route::resource("contactus","ContactUsController");
 
