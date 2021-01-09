@@ -41,6 +41,9 @@ Route::resource('/services/foodbankingfoodsecurity',"FoodBankingFoodSecurityCont
 Route::resource('/services/eosphconsultancy',"EosphconsultancyController");
 
 Route::resource("careers","CareersController");
+Route::resource("careers/single-application","SingleApplicationController");
+
 Route::resource("blog","BlogController");
+
 Route::resource("contactus","ContactUsController");
 
