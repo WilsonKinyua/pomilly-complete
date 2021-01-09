@@ -1,6 +1,6 @@
-/* 
+/*
     Developed and created by Developer Wilson
-    Reach me through email: wilsonkinyuam@gmail.com for ant question or something 
+    Reach me through email: wilsonkinyuam@gmail.com for ant question or something
     Phone Number: +254717255460
 */
 
@@ -2866,7 +2866,7 @@ hr{
     color:#f89619;
     font-weight:700;
     font-size:25px
-    
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .team-area .single-team .team-caption h3 a{
@@ -4525,7 +4525,8 @@ hr{
     margin-bottom:20px
 }
 .form-contact label{
-    font-size:14px
+    font-size:14px;
+    color: red;
 }
 .form-contact .form-group{
     margin-bottom:30px
@@ -5776,7 +5777,7 @@ b,sup,sub,u,del{
 .switch-wrap{
     margin-bottom:10px
 }
- 
+
 
 
 
@@ -5790,7 +5791,7 @@ b,sup,sub,u,del{
 .index-content{
     margin-bottom:20px;
     padding:50px 0px;
-    
+
 }
 .index-content .row{
     margin-top:20px;

@@ -1,10 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!--
+    <!--
     ========================================================================
         Developed and created by Developer Wilson
-        Reach me through email: wilsonkinyuam@gmail.com for ant question or something
+        Reach me through email: wilsonkinyuam@gmail.com for any question or something
         Phone Number: +254717255460
     =======================================================================================
      -->
@@ -14,7 +14,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ENVIRONMENTAL, OCCUPATIONAL SAFETY & PUBLIC HEALTH CONSULTANCY | Pomilly East African Limited</title>
     @yield("title")
-    <meta name="description" content="Developed by Developer Wilson">
+    <meta name="description" content="Content and Theme maintained By Developer Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="pomilly.com">
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/favicon.ico')}}">
@@ -115,6 +115,7 @@
                                             <li><a href="{{route('volunteer.index')}}">Volunteer</a></li>
                                             <li><a href="{{route('donate.index')}}">Donate</a></li>
                                             <li><a href="{{route('whatsnew.index')}}">What's New</a></li>
+                                            <li><a href="{{route('careers.index')}}">Careers</a></li>
                                         </ul>
                                     </li>
 
@@ -136,7 +137,6 @@
                                         </ul>
                                     </li>
                                     <li><a href="{{route('blog.index')}}">BLOG</a></li>
-
                                     <li><a href="{{route('contactus.index')}}">CONTACT US</a></li>
                                 </ul>
                             </nav>
@@ -181,7 +181,7 @@
                                     <li><a href="{{route('missionandvision.index')}}" style="color:white">Mission & Vision</a>
                                     </li>
                                     <li><a href="{{route('corevalues.index')}}" style="color:white">Core Values</a></li>
-
+                                    <li><a href="http://www.pomilly.com/webmail" style="color: white !important;" >Staff Email</a></li>
                                 </ul>
                             </div>
                         </div>

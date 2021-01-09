@@ -40,6 +40,7 @@ Route::resource('/services/foodwasterecyclingindustry',"FoodWasteRecyclingIndust
 Route::resource('/services/foodbankingfoodsecurity',"FoodBankingFoodSecurityController");
 Route::resource('/services/eosphconsultancy',"EosphconsultancyController");
 
+Route::resource("careers","CareersController");
 Route::resource("blog","BlogController");
 Route::resource("contactus","ContactUsController");
 
